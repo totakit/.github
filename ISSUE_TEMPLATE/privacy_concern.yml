@@ -1,0 +1,61 @@
+name: Privacy Concern
+description: Report a privacy or data handling concern
+title: "[Privacy]: "
+labels: ["privacy", "priority-high"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a privacy concern. totakit's core promise is that your files never leave your device. If you believe this promise is being violated, we take it extremely seriously.
+  - type: dropdown
+    id: concern_type
+    attributes:
+      label: Type of concern
+      options:
+        - File data sent to a server
+        - Unexpected network request during processing
+        - Third-party script loading user data
+        - Analytics tracking file content
+        - Other privacy violation
+    validations:
+      required: true
+  - type: dropdown
+    id: tool
+    attributes:
+      label: Which tool?
+      options:
+        - Image Resizer
+        - Image Compressor
+        - Image Converter
+        - Image Cropper
+        - PDF Merge
+        - PDF Split
+        - QR Generator
+        - JSON Formatter
+        - Word Counter
+        - Base64 Encoder
+        - Website (general)
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What did you observe?
+      placeholder: Describe what you saw — network requests, data being sent, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      placeholder: Screenshots, network tab logs, browser console output, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: browser
+    attributes:
+      label: Browser and version
+      placeholder: e.g. Chrome 120 on macOS
+    validations:
+      required: true

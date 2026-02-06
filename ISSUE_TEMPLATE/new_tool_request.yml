@@ -1,0 +1,61 @@
+name: New Tool Request
+description: Suggest a new tool for totakit
+title: "[Tool]: "
+labels: ["new-tool"]
+body:
+  - type: input
+    id: tool_name
+    attributes:
+      label: Tool name
+      placeholder: e.g. "SVG to PNG Converter"
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Image
+        - PDF
+        - Video
+        - Audio
+        - Text
+        - Data
+        - Generators
+        - Converters
+        - Security/Privacy
+        - Developer Tools
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What should it do?
+      placeholder: Describe the tool's purpose and expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: usecase
+    attributes:
+      label: Use case
+      placeholder: Why do you need this? What problem does it solve?
+    validations:
+      required: true
+  - type: dropdown
+    id: client_side
+    attributes:
+      label: Can this be done client-side?
+      description: totakit tools must run entirely in the browser
+      options:
+        - "Yes — browser APIs can handle this"
+        - "Yes — with WebAssembly"
+        - "Not sure"
+        - "No — requires server (not eligible)"
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Existing alternatives
+      placeholder: What tools exist today? What's wrong with them?

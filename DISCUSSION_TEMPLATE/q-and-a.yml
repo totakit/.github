@@ -1,0 +1,29 @@
+title: "[Q&A] "
+labels:
+  - question
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask a question about totakit — how tools work, browser compatibility, contributing, or anything else.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      placeholder: What would you like to know?
+    validations:
+      required: true
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      options:
+        - How a tool works
+        - Browser compatibility
+        - Privacy/security
+        - Contributing
+        - CLI/SDK/MCP
+        - Self-hosting
+        - Other
+    validations:
+      required: true

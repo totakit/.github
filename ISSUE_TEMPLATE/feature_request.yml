@@ -1,0 +1,37 @@
+name: Feature Request
+description: Suggest a new tool or feature
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Request type
+      options:
+        - New tool
+        - Improvement to existing tool
+        - UI/UX improvement
+        - CLI feature
+        - MCP/SDK feature
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the feature
+      placeholder: What should it do?
+    validations:
+      required: true
+  - type: textarea
+    id: usecase
+    attributes:
+      label: Use case
+      placeholder: Why do you need this? What problem does it solve?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      placeholder: Have you tried other tools? What's missing?

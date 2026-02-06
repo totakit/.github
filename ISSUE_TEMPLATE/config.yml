@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discussions
+    url: https://github.com/totakit/totakit.github.io/discussions
+    about: Ask questions, share ideas, or get help
+  - name: Security Vulnerability
+    url: https://github.com/totakit/.github/blob/main/SECURITY.md
+    about: Report security vulnerabilities privately
+  - name: Support
+    url: https://github.com/totakit/.github/blob/main/SUPPORT.md
+    about: Find support channels and browser compatibility info

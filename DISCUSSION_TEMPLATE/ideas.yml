@@ -1,0 +1,35 @@
+title: "[Idea] "
+labels:
+  - idea
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share your idea for totakit — new tools, features, integrations, or improvements.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What's your idea?
+      placeholder: Describe your idea clearly
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would this be valuable?
+      placeholder: Who benefits and how?
+    validations:
+      required: true
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - New tool
+        - Existing tool improvement
+        - Website/UI improvement
+        - CLI/SDK/MCP feature
+        - Documentation
+        - Other
+    validations:
+      required: true
