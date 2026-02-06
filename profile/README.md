@@ -66,7 +66,7 @@ Every tool runs in your browser. The code is open source. The processing is loca
 
 ## License
 
-MIT — use it, fork it, build on it.
+MIT (code) · CC BY 4.0 (content) — use it, fork it, build on it.
 
 ---
 
