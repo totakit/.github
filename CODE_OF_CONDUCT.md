@@ -20,7 +20,7 @@ We are committed to making participation in totakit projects a harassment-free e
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to [hello@totakit.com](mailto:hello@totakit.com).
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to [conduct@totakit.com](mailto:conduct@totakit.com).
 
 All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances.
 

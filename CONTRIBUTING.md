@@ -102,6 +102,6 @@ The value of totakit is tool quality and user trust, not production method. A we
 
 ## Questions?
 
-- [Discussions](https://github.com/totakit/totakit.github.io/discussions) for general questions
-- [Issues](https://github.com/totakit/totakit.github.io/issues) for bugs and feature requests
+- [Discussions](https://github.com/orgs/totakit/discussions) for general questions
+- [Issues](https://github.com/totakit/sdk/issues) for bugs and feature requests
 - [hello@totakit.com](mailto:hello@totakit.com) for private inquiries

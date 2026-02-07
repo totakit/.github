@@ -39,7 +39,7 @@ Default community health files and organization profile for [totakit](https://gi
 
 **700+ browser-based tools. Your files never leave your device.**
 
-Free, open-source, client-side tools for images, PDFs, video, audio, text, data, and more.
+Client-side tools for images, PDFs, video, audio, text, data, and more. SDK and CLI are MIT licensed and open source. MCP server and website are proprietary.
 
 ## Links
 
